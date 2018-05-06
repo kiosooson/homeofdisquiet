@@ -4,26 +4,49 @@
   <title>home of disquiet</title>
   <meta charset="utf-8">
   <style>
-  a{
-    color:black;
-    text-decoration: none;
-  }
-  </style>
+a{
+  color:black;
+  text-decoration: none;
+}
+h1{
+  border-bottom: 1px solid #E6E6FA;
+  margin: 0;
+  padding: 15px;
+}
+ul{
+  font-size: 18px;
+  border-right: 1px solid #E6E6FA;
+  width: 150px;
+  height: 500px;
+  margin: 0;
+  padding: 15px;
+  padding-left: 33px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 210px 1fr;
+}
+#grid #article{
+  padding-left: 15px;
+}
+</style>
 </head>
 <body>
-  <h1><a href="1_home.html"
+  <h1><a href="home.html"
   >HOME OF DISQUIET</a></h1>
-  <ul>
+  <div id="grid"><ul>
     <li><a href="biography.html" >biography</a></li>
     <li><a style="text-decoration:none">portfolio</li>
-    <ul><li><a href="film.html" >film</a></li>
+    <ol><li><a href="film.html" >film</a></li>
         <li><a href="photography.html" >photography</a></li>
         <li><a href="writing.html" >writing</a></li>
-        <li><a href="music.html" s>music</a></li></ul>
+        <li><a href="music.html" s>music</a></li></ol>
     <li><a href="diary.html" >diary</a></li>
     <li><a href="contact.html" >contact</a></li>
   </ul>
-<h3>WRITING</h3>
+<div id="article"><h3>WRITING</h3>
 <p style="margin-top:40px"> 업데이트 예정.
-</p>
+</p></div>
+</div>
 </body>
+</html>

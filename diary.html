@@ -8,26 +8,52 @@
     color:black;
     text-decoration: none;
   }
+  h1{
+    border-bottom: 1px solid #E6E6FA;
+    margin: 0;
+    padding: 15px;
+  }
+  ul{
+    font-size: 18px;
+    border-right: 1px solid #E6E6FA;
+    width: 150px;
+    height: 500px;
+    margin: 0;
+    padding: 15px;
+    padding-left: 33px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 210px 1fr;
+  }
+  #grid #article{
+    padding-left: 15px;
+  }
   </style>
 </head>
 <body>
-  <h1><a href="1_home.html"
+  <h1><a href="home.html"
   >HOME OF DISQUIET</a></h1>
-  <ul>
+  <div id="grid"><ul>
     <li><a href="biography.html" >biography</a></li>
     <li><a style="text-decoration:none">portfolio</li>
-    <ul><li><a href="film.html" >film</a></li>
+    <ol><li><a href="film.html" >film</a></li>
         <li><a href="photography.html" >photography</a></li>
         <li><a href="writing.html" >writing</a></li>
-        <li><a href="music.html" s>music</a></li></ul>
+        <li><a href="music.html" s>music</a></li></ol>
     <li><a href="diary.html" >diary</a></li>
     <li><a href="contact.html" >contact</a></li>
   </ul>
-<h3>DIARY</h3>
+<div id="article"><h3>DIARY</h3>
 <p style="margin-top:40px"> 2018. 04. 28. 15:22
   <br> 홈페이지를 만들어보았다. 참 재미있었다.
 </p>
 <p> 2018. 05. 04. 17:47
   <br> html을 이해하고 css에 입문.<br>링크가 걸린 텍스트에서 파란색과 밑줄을 제거해보았다.
 </p>
+<p> 2018. 05. 06. 23:19
+  <br> 구획을 설정해서 메뉴와 본문 영역 지정을 했다. 이로써 제대로 된 홈페이지 같은 느낌!</p>
+</div>
+</div>
 </body>
+</html>
