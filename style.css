@@ -1,0 +1,68 @@
+body{
+  font-family: "나눔명조"
+  line-height: 140%;
+  font-style: normal;
+  background-color: #F5F5F5;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+h1{
+  border-bottom: 1px solid #E6E6FA;
+  margin: 0;
+  padding: 15px;
+}
+ul{
+  font-size: 18px;
+  border-right: 1px solid #E6E6FA;
+  width: 150px;
+  height: 500px;
+  margin: 0;
+  padding: 15px;
+  padding-left: 33px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 210px 1fr;
+}
+#grid #article{
+  padding-left: 15px;
+}
+@media (max-width:650px) {
+  #grid{
+    display: block;
+    text-align: center;
+  }
+  #article{
+    text-align: left;
+  }
+  h1{
+    text-align: center;
+    border-bottom: none;
+  }
+  ul{
+    border-right: none;
+    border-top: 1px solid #E6E6FA;
+    border-bottom: 1px solid #E6E6FA;
+    height: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    display: inline;
+  }
+  ol{
+    display: inline;
+    padding-left: 0;
+  }
+  li{
+    display: inline;
+    padding : 5px;
+  }
+  #portfolio {
+    display: none;
+  }
+}
