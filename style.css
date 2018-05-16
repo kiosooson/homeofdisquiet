@@ -44,6 +44,7 @@ ul{
   #article{
     text-align: left;
     width: auto;
+    min-height: 300px;
   }
   h1{
     text-align: center;
@@ -60,7 +61,7 @@ ul{
     padding-bottom: 0;
     margin: 0;
     display: inline;
-    font-size:small;
+    font-size:x-small;
   }
   ol{
     display: inline;
