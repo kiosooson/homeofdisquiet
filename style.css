@@ -18,7 +18,7 @@ ul{
   font-size: 18px;
   border-right: 1px solid #E6E6FA;
   width: 150px;
-  height: auto;
+  min-height: 500px;
   margin: 0;
   padding: 15px;
   padding-left: 33px;
@@ -43,6 +43,7 @@ ul{
   }
   #article{
     text-align: left;
+    width: auto;
   }
   h1{
     text-align: center;
@@ -59,6 +60,7 @@ ul{
     padding-bottom: 0;
     margin: 0;
     display: inline;
+    font-size:small;
   }
   ol{
     display: inline;
