@@ -39,10 +39,17 @@ ul{
 }
 .indeximage{
   display: inline;
-  margin-left: 30px;
+  width: 160px;
+  margin-left: 330px;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 30px;
 }
+.text{
+  word-wrap: break-word;
+  width: 700px;
+}
+
+
 @media (max-width:700px) {
   #grid{
     display: block;
@@ -84,10 +91,11 @@ ul{
   }
   .indeximage{
     display: block;
+    width: 160px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;}
-  .photo{
+    margin-top: 70px;}
+  .media{
    max-width: 100%;
    max-height: 100vh;
    margin: auto;
